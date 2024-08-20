@@ -1,0 +1,21 @@
+name: cache_network_image_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  cached_network_image: ^3.4.0
+  flutter:
+    sdk: flutter
+  flutter_cache_manager: ^3.4.1
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
